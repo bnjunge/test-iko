@@ -1,0 +1,19 @@
+{
+    "name": "njunge/ctest",
+    "description": "A simple PHP Composer Package for hello world",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "surv technologies",
+            "email": "info@survtechnologies.co.ke"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SurvTech\\Test\\": "src/"
+        }
+    },
+    "require": {}
+}
